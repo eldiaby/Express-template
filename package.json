@@ -1,0 +1,39 @@
+{
+	"name": "express-template",
+	"version": "1.0.0",
+	"description": "Template Node.js + Express + TypeScript + Pino Logging + Compression.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only --watch src  src/server.ts",
+		"build": "tsc",
+		"start": "node dist/server.js",
+		"test": "vitest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"argon2": "^0.44.0",
+		"compression": "^1.8.1",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.19.3",
+		"pino": "^10.1.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.4",
+		"@types/compression": "^1.8.1",
+		"@types/express": "^5.0.5",
+		"@types/jsonwebtoken": "^9.0.10",
+		"@types/node": "^24.10.0",
+		"@types/supertest": "^6.0.3",
+		"pino-http": "^11.0.0",
+		"pino-pretty": "^13.1.2",
+		"supertest": "^7.1.4",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.9.3",
+		"vitest": "^4.0.7"
+	}
+}

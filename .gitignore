@@ -1,0 +1,10 @@
+node_modules
+
+
+dist/
+
+*.env
+!config.env.example
+
+
+*.log
